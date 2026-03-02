@@ -8,7 +8,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 - **Goal**: Create a structured workspace and organize project folders for smooth development and data handling.
 2. ### **Download Walmart Sales Data** 
 - **Data Source**: Download the Walmart sales datasets from Kaggle.
-- **Dataset Link**: (Walmart Sales Dataset)
+- **Dataset Link**: [Walmart Sales Dataset](https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets)
 - **Storage**: Save the data in the data/ folder for easy reference and access.
 3. ### **Install Required Libraries and Load Data** 
 - **Libraries**: Install necessary Python libraries using:
