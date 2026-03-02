@@ -32,12 +32,6 @@ This project is an end-to-end data analysis solution designed to extract critica
 - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
 8. ### **SQL Analysis: Complex Queries and Business Problem Solving**
 - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions, such as:
-  `SELECT * FROM
-(SELECT Branch , category , AVG(rating) as avg_rating,
-DENSE_RANK() OVER(PARTITION BY Branch ORDER BY AVG(rating) DESC) as rank_order
-from walmart
-group by 1,2) as r1
-where rank_order=1;`
    - Revenue trends across branches and categories.
    - Identifying best-selling product categories.
    - Sales performance by time, city, and payment method.
